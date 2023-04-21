@@ -5,12 +5,19 @@ body {
     background-color: #333;
   }
   .main-container {
-    background-color:rgb(36, 38, 46);
+    background-color:rgb(40, 44, 52);
     color: rgb(217, 220, 230);
     padding-left: 15px;
     height: 450px;
     font-family: Inter;
     margin-top: -30px; /* add negative margin to remove the gap */
+    background-image: url('../images/react-logo-gray.png');
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-x: right;
+    background-position-x: 512px;
+    background-position-y: 100px ;
+    
 }
 
 
@@ -35,3 +42,5 @@ body {
   .spacing-span{
     padding: 10px;
   }
+
+
