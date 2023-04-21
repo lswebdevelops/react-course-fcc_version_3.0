@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  }
+  .main-container {
+    background-color:rgb(36, 38, 46);
+    color: rgb(217, 220, 230);
+    padding-left: 15px;
+    height: 450px;
+    font-family: Inter;
+    margin-top: -30px; /* add negative margin to remove the gap */
+}
+
+
+.h1-main{
+    padding-top: 35px;
+    font-size: 42px;
+    font-family: Inter;
+}
+
+.main-container li {
+    list-style-type: none;
+   
+  }
+  .main-container li::before {
+    /* unicode for bullet point */
+    content: "\2022"; 
+    color: rgb(97, 218, 251);
+     /* optional: add some space between the bullet point and the text */
+    margin-right: 8px;
+    font-size: 150%;
+  }
+  .spacing-span{
+    padding: 10px;
+  }

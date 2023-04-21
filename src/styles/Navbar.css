@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+.container-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(31, 29, 38);
+   height: 90px;
+}
+.container-navbar-left{
+    display: flex;
+    gap:7px;
+    align-items: center;
+    padding-left: 15px;
+
+    justify-content: left;
+
+}
+.img-logo-navbar{
+    width: 40px;
+    height: auto;
+
+}
+.h1-logo-img-navbar{
+    font-family: Inter;
+    font-size: 22px;
+    color: rgb(97, 218, 251);
+}
+.h1-logo-navbar{
+    color: rgb(217, 220, 230);
+    font-size: 20px;
+    padding-right: 15px;
+    line-height: 1; /* set line-height to 1 */
+}
+
