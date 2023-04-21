@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-course-fcc_version_3.0/static/css/main.e30a522d.css",
+    "main.js": "/react-course-fcc_version_3.0/static/js/main.96bf6b68.js",
+    "static/js/787.1f29a3d6.chunk.js": "/react-course-fcc_version_3.0/static/js/787.1f29a3d6.chunk.js",
+    "index.html": "/react-course-fcc_version_3.0/index.html",
+    "main.e30a522d.css.map": "/react-course-fcc_version_3.0/static/css/main.e30a522d.css.map",
+    "main.96bf6b68.js.map": "/react-course-fcc_version_3.0/static/js/main.96bf6b68.js.map",
+    "787.1f29a3d6.chunk.js.map": "/react-course-fcc_version_3.0/static/js/787.1f29a3d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e30a522d.css",
+    "static/js/main.96bf6b68.js"
+  ]
+}
