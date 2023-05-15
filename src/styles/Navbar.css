@@ -1,3 +1,11 @@
+:root{
+    --main-container-navbar-dark-backgroundcolor: rgb(31, 29, 38);
+    --main-container-navbar-light-backgroundcolor: rgb(240, 240, 240);
+    --main-h1-logo-navbar-color: rgb(217, 220, 230);   
+  
+  }
+
+
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(31, 29, 38);
+    background-color: var(--main-container-navbar-dark-backgroundcolor);
    height: 90px;
 }
 .container-navbar-left{
@@ -30,9 +38,28 @@ body {
     color: rgb(97, 218, 251);
 }
 .h1-logo-navbar{
-    color: rgb(217, 220, 230);
-    font-size: 20px;
+    color: var(--main-h1-logo-navbar-color);
+    font-size: 15px;
     padding-right: 15px;
-    line-height: 1; /* set line-height to 1 */
+    line-height: 1; 
 }
 
+
+/*  adding a light theme mode  */
+
+.container-light-navbar{
+   
+    background-color: var(--main-container-navbar-light-backgroundcolor);
+   
+}
+
+.dark-ligh-button-container{
+    display: flex;
+}
+.h1-logo-light-navbar{
+    color: var(--main-h1-logo-navbar-color);
+    font-size: 15px;
+    padding-right: 5px;
+    line-height: 1; 
+   
+}

@@ -1,3 +1,12 @@
+:root{
+  --main-container-dark-backgroundcolor: rgb(40, 44, 52);
+  --main-container-light-backgroundcolor: rgb(240, 240, 240);
+
+  --main-text-dark-color: rgb(217, 220, 230);
+  --main-text-light-color: black;
+
+
+}
 
 body {
     margin: 0;
@@ -5,13 +14,13 @@ body {
     background-color: #333;
   }
   .main-container {
-    background-color:rgb(40, 44, 52);
-    color: rgb(217, 220, 230);
+    background-color:var(--main-container-dark-backgroundcolor);
+    color: var(--main-text-dark-color);
     padding-left: 15px;
     height: 450px;
     font-family: Inter;
     margin-top: -30px; /* add negative margin to remove the gap */
-    background-image: url('../images/react-logo-gray.png');
+    background-image: url('../images/logo192.png');
     background-repeat: no-repeat;
     background-size: 35%;
     background-position-x: right;
@@ -35,7 +44,6 @@ body {
     /* unicode for bullet point */
     content: "\2022"; 
     color: rgb(97, 218, 251);
-     /* optional: add some space between the bullet point and the text */
     margin-right: 8px;
     font-size: 150%;
   }
@@ -43,4 +51,11 @@ body {
     padding: 10px;
   }
 
+/*  adding a light theme mode  */
 
+  .main-light-container {
+    background-color:var(--main-container-light-backgroundcolor);
+    color: var(--main-text-light-color);
+    
+    
+}

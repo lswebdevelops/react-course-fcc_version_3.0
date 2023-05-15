@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/Navbar.css';
 import logo_fcc  from '../images/logo192.png'
+import ToggleDark from './ToggleDark';
 
 function Navbar(){
     return(
@@ -12,7 +13,11 @@ function Navbar(){
             <h1 className="h1-logo-img-navbar">ReactFacts</h1>
 
            </div>
-            <h1  className="h1-logo-navbar">React Course - Project 1</h1>
+           <div className="dark-ligh-button-container">            
+           <h1 className="h1-logo-light-navbar">Light</h1>
+            <ToggleDark />
+            <h1 className="h1-logo-navbar"> Dark </h1>
+           </div>
         </div>
     )
 }
