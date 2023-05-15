@@ -2,9 +2,9 @@ import React from "react";
 import '../styles/Navbar.css';
 import logo_fcc  from '../images/logo192.png'
 
-function Navbar(){
+function Navbar(props){
     return(
-        <div className="container-navbar">
+        <div className={props.darkMode ? "container-navbar": ""}>
            <div className="container-navbar-left">
            <img className="img-logo-navbar"
             src={logo_fcc} 
@@ -12,9 +12,23 @@ function Navbar(){
             <h1 className="h1-logo-img-navbar">ReactFacts</h1>
 
            </div>
-            <h1  className="h1-logo-navbar">React Course - Project 1</h1>
+            <div  className="h1-logo-navbar">
+                <p className="toggler--light">Light</p>
+
+                <div
+                className="toggler--slider"
+                onClick={props.toggleDarkMode}
+                >
+                    <div className="toggler--slider--circle"></div>
+                </div>
+
+
+                <p className="toggler--dark">Dark</p>
+
+            </div>
         </div>
     )
 }
 
 export default Navbar;
+
