@@ -21,13 +21,13 @@
   }
   
   .toggle-wrapper {
-    width: 100px;
+    width: 70px;
     display: block;
   }
   
   .toggle {
-    height: 30px;
-    width: 85px;
+    height: 20px;
+    width:54px;
     background: var(--black);
     border-radius: 15px;
     padding: 0px;
@@ -39,9 +39,9 @@
   .toggle::before {
     content: "";
     display: block;
-    height: 30px;
-    width: 30px;
-    border-radius: 30px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
     background:  gray;
     position: absolute;
     z-index: 2;
@@ -50,7 +50,7 @@
   }
   
   .toggle.enabled::before {
-    transform: translateX(55px);
+    transform: translateX(35px);
   }
   
   .toggle input {
