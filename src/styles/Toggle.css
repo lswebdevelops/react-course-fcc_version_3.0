@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
   }
@@ -19,7 +21,7 @@
   }
   
   .toggle-wrapper {
-    width: 130px;
+    width: 100px;
     display: block;
   }
   
@@ -40,7 +42,7 @@
     height: 30px;
     width: 30px;
     border-radius: 30px;
-    background: var(--white);
+    background:  gray;
     position: absolute;
     z-index: 2;
     transform: translate(0);
@@ -57,3 +59,19 @@
     opacity: 0;
   }
   
+  .toggle.disabled {
+    background-color: rgb(31, 29, 38);
+
+  }
+    
+  .toggle.enabled {
+    background-color:  rgb(240, 240, 240);
+    
+
+  }
+
+.dark-light-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
