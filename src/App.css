@@ -1,8 +1,23 @@
+html{
+  color: rgb(242, 242, 242);
+  background-color: rgb(31, 29, 38);
+}
+
+
 .App {
-  
-   width: 650px;
-   padding:10px 15px 0 15px;
-    margin: auto;
-   
-  }
-  
+  width: 650px;
+
+  margin: auto;
+  color: rgb(242, 242, 242);
+  background-color: rgb(31, 29, 38);
+
+}
+
+.App-light {
+  background-color: rgb(242, 242, 242); 
+   color: rgb(31, 29, 38);
+}
+
+.App-dark {
+  background-color: rgb(31, 29, 38);
+}
