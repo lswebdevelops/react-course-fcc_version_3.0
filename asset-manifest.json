@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-course-fcc_version_3.0/static/css/main.564dbda4.css",
-    "main.js": "/react-course-fcc_version_3.0/static/js/main.8c47eb73.js",
+    "main.css": "/react-course-fcc_version_3.0/static/css/main.c0d9b76c.css",
+    "main.js": "/react-course-fcc_version_3.0/static/js/main.656ee786.js",
     "static/js/787.1f29a3d6.chunk.js": "/react-course-fcc_version_3.0/static/js/787.1f29a3d6.chunk.js",
     "index.html": "/react-course-fcc_version_3.0/index.html",
-    "main.564dbda4.css.map": "/react-course-fcc_version_3.0/static/css/main.564dbda4.css.map",
-    "main.8c47eb73.js.map": "/react-course-fcc_version_3.0/static/js/main.8c47eb73.js.map",
+    "main.c0d9b76c.css.map": "/react-course-fcc_version_3.0/static/css/main.c0d9b76c.css.map",
+    "main.656ee786.js.map": "/react-course-fcc_version_3.0/static/js/main.656ee786.js.map",
     "787.1f29a3d6.chunk.js.map": "/react-course-fcc_version_3.0/static/js/787.1f29a3d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.564dbda4.css",
-    "static/js/main.8c47eb73.js"
+    "static/css/main.c0d9b76c.css",
+    "static/js/main.656ee786.js"
   ]
 }
