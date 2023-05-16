@@ -4,7 +4,7 @@ import logo_fcc  from '../images/logo192.png'
 
 function Navbar(props){
     return(
-        <div className={props.darkMode ? "container-navbar": ""}>
+        <div className={props.darkMode ? "container-navbar": "container-navbar-light"}>
            <div className="container-navbar-left">
            <img className="img-logo-navbar"
             src={logo_fcc} 
@@ -13,17 +13,13 @@ function Navbar(props){
 
            </div>
             <div  className="h1-logo-navbar">
-                <p className="toggler--light">Light</p>
-
+                <p>Light</p>
                 <div
-                className="toggler--slider"
-                onClick={props.toggleDarkMode}
-                >
+                   className={`toggler--slider ${props.darkMode ? "toggled" : ""}`}
+                    onClick={props.toggleDarkMode}>
                     <div className="toggler--slider--circle"></div>
                 </div>
-
-
-                <p className="toggler--dark">Dark</p>
+                <p>Dark</p>
 
             </div>
         </div>

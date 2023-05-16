@@ -3,9 +3,9 @@ import '../styles/Main.css';
 
 
 
-function Main(){
+function Main(props){
     return(
-        <div className="main-container">
+        <div className={props.darkMode ? "main-container" : "main-container-light"}>
             <h1 className="h1-main">Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>

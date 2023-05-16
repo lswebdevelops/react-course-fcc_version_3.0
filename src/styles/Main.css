@@ -2,16 +2,15 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #333;
-  }
+ }
   .main-container {
     background-color:rgb(40, 44, 52);
-    color: rgb(217, 220, 230);
+    color: rgb(242, 242, 242);
     padding-left: 15px;
     height: 450px;
     font-family: Inter;
     margin-top: -30px; /* add negative margin to remove the gap */
-    background-image: url('../images/react-logo-gray.png');
+    background-image: url('../images/logo192.png');
     background-repeat: no-repeat;
     background-size: 35%;
     background-position-x: right;
@@ -19,7 +18,21 @@ body {
     background-position-y: 100px ;
     
 }
-
+.main-container-light{
+  background-color:rgb(242, 242, 242);
+  color: rgb(40, 44, 52);
+  padding-left: 15px;
+  height: 450px;
+  font-family: Inter;
+  margin-top: -30px; /* add negative margin to remove the gap */
+  background-image: url('../images/logo192.png');
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position-x: right;
+  background-position-x: 512px;
+  background-position-y: 100px ;
+  
+}
 
 .h1-main{
     padding-top: 35px;
