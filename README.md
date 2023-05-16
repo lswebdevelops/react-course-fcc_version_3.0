@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+https://lswebdevelops.github.io/react-course-fcc_version_3.0/
+
+
+![Website](https://github.com/lswebdevelops/react-course-fcc_version_3.0/blob/master/src/images/screenshot.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
